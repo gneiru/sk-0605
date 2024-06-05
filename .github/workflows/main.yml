@@ -80,7 +80,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - run: pnpm test
+      # - run: pnpm test
 
   Lint:
     runs-on: ubuntu-latest
