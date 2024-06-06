@@ -23,6 +23,11 @@
 						"name": "test",
 						"schema": "src/lib/graphql/test/schema.graphql",
 						"tadaOutputLocation": "src/lib/graphql/test/schema-env.d.ts"
+					},
+					{
+						"name": "anilist",
+						"schema": "src/lib/graphql/anilist/schema.graphql",
+						"tadaOutputLocation": "src/lib/graphql/anilist/schema-env.d.ts"
 					}
 				]
 			}
