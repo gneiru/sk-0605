@@ -9,7 +9,23 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext"
+		"moduleResolution": "Node",
+		"plugins": [
+			{
+				"name": "@0no-co/graphqlsp",
+				"schemas": [
+					{
+						"name": "pokemon",
+						"schema": "src/lib/graphql/pokemon/schema.graphql",
+						"tadaOutputLocation": "src/lib/graphql/pokemon/schema-env.d.ts"
+					},
+					{
+						"name": "test",
+						"schema": "src/lib/graphql/test/schema.graphql",
+						"tadaOutputLocation": "src/lib/graphql/test/schema-env.d.ts"
+					}
+				]
+			}
+		]
 	}
 }
